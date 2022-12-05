@@ -479,6 +479,7 @@ body {
 }
 
 .rewind-back-text {
+  position: relative;
   display: block;
   width: auto;
   height: auto;
@@ -954,6 +955,7 @@ body {
 }
 
 .rewind-back-text-zh {
+  position: relative;
   display: block;
   width: auto;
   height: auto;
@@ -1341,6 +1343,35 @@ body {
 
 .text-block-17 {
   font-weight: 300;
+}
+
+.changelanguage-copy {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  padding-right: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-block-14-copy {
+  padding-right: 0px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.changelanguage-copy {
+  padding-right: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-block-14-copy {
+  padding-right: 0px;
+  color: #00d2a2;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
